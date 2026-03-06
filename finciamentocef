@@ -1,0 +1,8 @@
+idade = int(input("Digite a idade: "))
+renda_mensal = float(input("Digite a renda mensal em R$: "))
+tempo_servico = int(input("Digite o tempo de servico em anos: "))
+
+if idade>= 21 and renda_mensal>= 2000 and tempo_servico >= 2:
+    print("Financiamento aprovado para análise")
+else:
+    print("Financiamento negado")
