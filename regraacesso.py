@@ -5,7 +5,7 @@ if idade >= 18 and tipo_ingresso == "vip":
     print ("Acesso área VIP")
 elif idade >= 18 and tipo_ingresso == "normal":
     print("Acesso área comum")
-elif idade >= 16 and idade<= 17 and tipo_ingresso == "normal" or "vip":
+elif idade >= 16 and idade<= 17 and (tipo_ingresso == "normal" or tipo_ingresso == "vip"):
     print ("Acesso permitido apenas com responsável")
 else:
     print("Acesso negado")
