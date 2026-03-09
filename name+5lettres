@@ -1,0 +1,5 @@
+my_list = ["Ana", "Carlos", "João", "Fernanda", "Luiz"]
+for list in my_list:
+    if len(list) > 5:
+        print ("O nome tem mais de 5 letras é:", list)
+        
