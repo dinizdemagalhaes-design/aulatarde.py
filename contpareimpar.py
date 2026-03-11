@@ -10,5 +10,5 @@ for numero in numeros:
     else:
         impares += 1
     
-print ("A quantidade de pares é", pares )
-print ("A quantidade de ímpares é", impares)
+print ("A quantidade de pares é:", pares )
+print ("A quantidade de ímpares é:", impares)
