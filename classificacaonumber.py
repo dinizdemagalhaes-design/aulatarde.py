@@ -1,7 +1,7 @@
 
 
 
-for i in range(5):
+for x in range(5):
     numero = float(input("Digite o numero: "))
     if numero > 0:
         print ("Número positio")
