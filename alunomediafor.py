@@ -10,7 +10,7 @@ for aluno in range (1, quantidade_alunos+1):
     nota2 = float(input("Nota 2:"))
     
     media = (nota1 + nota2) /2
-    print = ("Média", media)
+    print ("Média", media)
     
     if media >= 7:
         print ("Aprovado")
