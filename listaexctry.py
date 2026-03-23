@@ -5,6 +5,7 @@ while True:
     print("[i] Inserir um item")
     print("[a] Apagar item")
     print ("[l] Listar item")
+    print("[s] Sair do sistema")
 
     opção = input("Escolha uma opção: ").lower()
    
@@ -26,9 +27,9 @@ while True:
                 print(f"item '{removido} removido!")
         
         except ValueError:
-            print("Digite um numero invalido")
+            print("Digito um numero invalido")
         except IndexError:
-            print("Indice nao existe")
+            print("Indice não existe")
 
     elif opção == "l":
         if not lista:
@@ -38,6 +39,10 @@ while True:
             print("Itens da lista:")
             for i, item in enumerate(lista):
                 print(i, "-", item)
+
+    elif opção == "s":
+        print("Sair do Sistema")
+        break
     
     else:
         print("Opção inválida")
